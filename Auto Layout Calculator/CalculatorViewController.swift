@@ -11,13 +11,13 @@ class CalculatorViewController: UIViewController {
         super.viewDidLoad()
         
        
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
-        // Dispose of any resources that can be recreated.
+       
     }
     
     
@@ -70,8 +70,7 @@ class CalculatorViewController: UIViewController {
     //clear button action
     @IBAction func acaction(_ sender: Any) {
         
-//        number1 = 0
-//        number2 = 0
+
         number1 = nil
         number2 = nil
         numberlabel.text = ""
@@ -99,9 +98,6 @@ class CalculatorViewController: UIViewController {
             number2 = Double(textnum)
         }
         operation = true
-        
-        
-        
     }
     
     
